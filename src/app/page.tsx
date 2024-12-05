@@ -1,3 +1,4 @@
+import { ModalUserName } from "@/components/modal-user-name";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,8 +14,7 @@ export default function Home() {
           priority
         />
 
-        <h1>Seats Organizer</h1>
-        <h1>Construa o layout baby</h1>
+        <ModalUserName />
       </main>
     </div>
   );
