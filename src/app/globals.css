@@ -12,6 +12,10 @@ body {
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 @layer base {
   :root {
     --background: 20 14.3% 4.1%;
@@ -92,9 +96,7 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   } */
-}
 
-@layer base {
   * {
     @apply border-border;
   }
